@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Currency Converter</h1>
+    <div class="currency-container">
+        <select id="currency-first">
+            <option value="USD" selected>USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="RUB">RUB</option>
+            <option value="INR">INR</option>
+        </select>
+        <input type="number"  id="worth-first" value="1" min="0">
+
+    </div>
+    <div class="currency-container">
+        <select id="currency-second">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="RUB">RUB</option>
+            <option value="INR" selected>INR</option>
+        </select>
+        <input disabled  id="worth-second" value="1" min="0">
+
+    </div>
+    <h3 class="result">
+        1 USD = 1.4699 AUD
+    </h3>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
